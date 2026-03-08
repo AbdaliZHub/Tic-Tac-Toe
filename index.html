@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Tic Tac Toe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Tic Tac Toe</h1>
+
+<div class="setup">
+
+<input type="text" id="playerX" placeholder="Player X Name">
+
+<select id="mode">
+<option value="pvp">Player vs Player</option>
+<option value="ai">Player vs Computer</option>
+</select>
+
+<button id="startGame">Start Game</button>
+
+</div>
+
+<h2 id="turnDisplay"></h2>
+
+<div class="scoreboard">
+
+<p id="scoreX">Player X : 0</p>
+<p id="scoreO">Player O : 0</p>
+<p id="draws">Draws : 0</p>
+
+</div>
+
+<div class="game-board">
+
+<button class="box"></button>
+<button class="box"></button>
+<button class="box"></button>
+
+<button class="box"></button>
+<button class="box"></button>
+<button class="box"></button>
+
+<button class="box"></button>
+<button class="box"></button>
+<button class="box"></button>
+
+</div>
+
+<div class="msg-container hide">
+<h2 id="msg"></h2>
+<button id="newGame">New Game</button>
+</div>
+
+<button id="reset">Reset Board</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
